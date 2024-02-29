@@ -1,0 +1,32 @@
+    +-------------------------------+
+    |     TravelPackage            |
+    +-------------------------------+
+    | - name: String                |
+    | - passengerCapacity: int      |
+    | - itinerary: List<Destination>|
+    | - passengers: List<Passenger> |
+    +-------------------------------+
+    | + addPassenger(Passenger): void|
+    | + printItinerary(): void      |
+    | + printPassengerList(): void  |
+    | + printIndividualPassengerDetails(Passenger): void |
+    | + printAvailableActivities(): void |
+    +-------------------------------+
+    
+    +-------------------------------+
+    |         Destination           |
+    +-------------------------------+
+    | - name: String                |
+    | - activities: List<Activity>  |
+    +-------------------------------+
+    | + addActivity(Activity): void|
+    +-------------------------------+
+    
+    +-------------------------------+
+    |         Activity              |
+    +-------------------------------+
+    | - name: String                |
+    | - description: String         |
+    | - cost: double                |
+    | - capacity: int               |
+    +-------------------------------+
